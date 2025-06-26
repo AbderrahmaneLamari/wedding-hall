@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function WeddingPlanners() {
     return (
@@ -60,6 +61,11 @@ export default function WeddingPlanners() {
                         >
                             READ MORE
                         </Button>
+                        <Link href="/reservation">
+                            <Button variant="outline" className="ml-4 border-orange-500 font-serif font-bold text-white bg-orange-500 hover:bg-white hover:text-orange-500 px-8 py-3 text-lg">
+                                Book Now
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </div>
