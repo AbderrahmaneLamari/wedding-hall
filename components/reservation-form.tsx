@@ -13,6 +13,7 @@ import { Calendar } from "@/components/ui/calendar"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { CalendarIcon, Check, Crown, Utensils, Camera, Music, Flower } from "lucide-react"
 import { format } from "date-fns"
+import Link from "next/link"
 
 interface FormData {
     fullName: string
@@ -101,7 +102,7 @@ export default function ReservationForm() {
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Reservation Confirmed!</h1>
                         <p className="text-xl text-gray-600 mb-8">
-                            Thank you for choosing GK Wedding and Event Management. We'll contact you within 24 hours to confirm your
+                            Thank you for choosing GK Wedding and Event Management. We&apos;ll contact you within 24 hours to confirm your
                             booking details.
                         </p>
                         <div className="bg-gray-50 rounded-lg p-6 mb-8">
@@ -123,12 +124,12 @@ export default function ReservationForm() {
                             </div>
                         </div>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <a
+                            <Link
                                 href="/"
                                 className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                             >
                                 Back to Home
-                            </a>
+                            </Link>
                             <Button
                                 variant="outline"
                                 className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
@@ -395,7 +396,7 @@ export default function ReservationForm() {
                             )}
                         </Button>
                         <p className="text-gray-500 text-sm mt-4">
-                            * Required fields. We'll contact you within 24 hours to confirm your booking.
+                            * Required fields. We&apos;ll contact you within 24 hours to confirm your booking.
                         </p>
                     </div>
                 </form>

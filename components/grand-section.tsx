@@ -21,7 +21,7 @@ export default function GrandSection() {
                     <p className="text-white/80  mb-4 text-lg">We Plan Weddings That Are</p>
                     <h2 className="text-5xl md:text-7xl font-bold text-white mb-8">GRAND</h2>
                     <p className="text-white/90 text-lg leading-relaxed mb-12 max-w-xl">
-                        Crafting grand celebrations is our wedding affair dreams come center stage. Our "Grand" theme brings
+                        Crafting grand celebrations is our wedding affair dreams come center stage. Our &quot;Grand&quot; theme brings
                         together the perfect combination of elegance and grandeur to turn your vision into a grand reality, creating
                         memories that last a lifetime.
                     </p>
